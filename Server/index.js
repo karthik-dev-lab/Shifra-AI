@@ -33,11 +33,7 @@ app.use(cookieParser());
 
 const PORT=process.env.PORT || 8000;
 
-// Add these to catch the preflight OPTIONS requests
-app.options("/api/auth/*", privateCors);
-app.options("/api/user/*", privateCors);
-app.options("/api/billing/*", privateCors);
-app.options("/api/assistant/*", publicCors);
+
 
 app.get("/",(req,res)=>{
     res.send("Hello World");
