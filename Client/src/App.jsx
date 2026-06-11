@@ -8,7 +8,7 @@ import Builder from "./pages/Builder";
 import Billing from "./pages/Billing";
 import axios from "axios";
 import { Toaster } from "react-hot-toast";
-export const ServerUrl = "https://shifra-ai-server.onrender.com/";
+export const ServerUrl = "https://shifra-ai-server.onrender.com";
 export const CLIENT_URL = "https://shifra-ai-1lpi.onrender.com";
 
 function App() {
